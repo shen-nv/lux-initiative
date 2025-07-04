@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/"
+  to = "/html/initiative.html"
+  status = 200

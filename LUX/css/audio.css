@@ -1,0 +1,57 @@
+
+
+.audio-player {
+  display: flex;
+  align-items: center;
+  background-color: #c0c0c0;
+  padding: 8px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+  font-size: 14px;
+  padding: 4px 8px;
+  width: 32px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 6px;
+  cursor: pointer;
+  font-family: "Courier New", monospace;
+}
+
+#progress {
+  flex: 1;
+  margin-right: 6px;
+  height: 6px;
+  background: #000;
+  border: none;
+}
+
+#progress::-webkit-slider-thumb {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  background: #aaa;
+  border: none;
+}
+
+#progress::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  background: #aaa;
+  border: none;
+}
+
+.time {
+  background-color: #000;
+  color: #fff;
+  padding: 2px 4px;
+  font-size: 12px;
+  white-space: nowrap;
+}

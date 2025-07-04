@@ -1,0 +1,104 @@
+h1 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#outputBox {
+  border-right: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+  font-family: Abel;
+  width: 408px; 
+  height: 189px; 
+  left: 338px; 
+  top: 349px; 
+  position: absolute; 
+  background: white; 
+  border-left: 4px rgba(202, 190, 190, 0.86) inset;
+  border-top: 4px rgba(193, 188, 188, 0.86) inset;
+  white-space: pre-line;
+  font-size: 13px;
+  border: 2px #DCD4D4 solid"
+}
+
+#searchArea {
+  width: 50%;
+  border-top: 4px solid #8f8f8f;
+  border-left: 4px solid #8f8f8f;
+  border-right: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+  margin: 0 auto 30px auto;
+  display: flex;
+  width: 267px; 
+  height: 29px; 
+  left: 338px; 
+  top: 563px; 
+  position: absolute; 
+  background: white; 
+  box-shadow: 4px 4px 0px rgba(82.14, 82.14, 82.14, 0.86) inset; 
+  border: 2px #DCD4D4 solid"
+}
+
+#searchInput {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  font-family: inherit;
+  background-color: white;
+  color: black;
+  font-family: Abel;
+}
+
+#searchButton {
+  width: 60px;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Abel;
+}
+
+#wordList {
+  width: 200px;
+  font-size: 14px;
+  font-family: Abel;
+  top: 610px;
+  left: 334px;
+  position: absolute;
+}
+
+.row {
+  display: flex;
+  justify-content:space-between;
+  margin: 6px 0;
+}
+
+.word {
+  color: red;
+  cursor: pointer;
+  width: 55px;
+  text-align: center;
+  border-left: 2px;
+  border-right: 2px;
+}
+
+.divider {
+  color: black;
+}
+
+.pagination { 
+  left: 350.32px; 
+  top: 780px; 
+  position: absolute;
+   text-align: center;
+    color: #868686; 
+    font-size: 12px; 
+    font-family: Abel; 
+    font-weight: 400; 
+    line-height: 20px;
+     word-wrap: break-word"
+}
