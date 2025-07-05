@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="../css/search.css">
+<link rel="stylesheet" href="../css/video.css">
   <div style="width: 801.50px; height: 3495px; position: relative">
     <div style="width: 800px; height: 266.52px; left: 0px; top: 0px; position: absolute">
       <div style="width: 800px; height: 252px; left: 0px; top: 0px; position: absolute; background: #25597C; box-shadow: 0px 20px 0px rgba(0, 0, 0, 0.96) inset; border-top: 7px #7D7979 solid"></div>
@@ -53,21 +54,17 @@
         <li>Background: LUX INITIATIVE was a once-covert, independently operated organization composed of a group of consciousness researchers known as the Lightworkers. Their focus centered on exploring dream structures, transdimensional consciousness techniques, and the obstructive forces that prevent humanity’s ascension.Due to the nature of their research—touching upon classified information barriers within unknown dimensions—LUX INITIATIVE was forcibly shut down in 2001. However, a significant portion of its data was never fully erased and continues to surface in the digital strata as fragmented remains.</li>
       </ul>
     </div>
-    <div style="width: 408px; height: 308px; left: 340px; top: 321px; position: absolute">
-      <video width="408" height="282" autoplay muted loop controls style="position: absolute; left: 0px; top: 2px;">
-        <source src="../video/initiative.MP4" type="video/mp4" />
-      </video>
-      <!--<div style="width: 408px; height: 282px; left: 0px; top: 2px; position: absolute; background: black"></div>-->
-      <div style="width: 408px; height: 24px; left: 0px; top: 284px; position: absolute; background: linear-gradient(360deg, #B6B6B6 0%, #DFDCDC 100%)"></div>
-      <div style="width: 244px; height: 5px; left: 32px; top: 295px; position: absolute; background: black"></div>
-      <div style="width: 106.67px; height: 15px; left: 294.73px; top: 289px; position: absolute; background: black"></div>
-      <div style="width: 86.88px; height: 8px; left: 318.92px; top: 282px; position: absolute; color: white; font-size: 10px; font-family: Abel; font-weight: 400; line-height: 30px; word-wrap: break-word">00:00 /00:05 </div>
-      <div style="width: 17.60px; height: 16px; left: 7.70px; top: 288px; position: absolute; background: linear-gradient(180deg, #FDFDFD 18%, #737373 100%)"></div>
-      <div style="width: 4.40px; height: 10px; left: 11px; top: 291px; position: absolute; background: linear-gradient(180deg, #666666 0%, black 100%); box-shadow: 1px 1px 1px rgba(116.02, 116.02, 116.02, 0.25) inset"></div>
-      <div style="width: 4.40px; height: 10px; left: 17.60px; top: 291px; position: absolute; background: linear-gradient(180deg, #666666 0%, black 100%); box-shadow: 1px 1px 1px rgba(116.02, 116.02, 116.02, 0.25) inset"></div>
-      <div style="width: 2.20px; height: 8px; left: 12.10px; top: 292px; position: absolute; background: black; box-shadow: 1px 1px 1px rgba(116.02, 116.02, 116.02, 0.25) inset"></div>
-      <div style="width: 2.20px; height: 8px; left: 18.70px; top: 292px; position: absolute; background: black; box-shadow: 1px 1px 1px rgba(116.02, 116.02, 116.02, 0.25) inset"></div>
+  <div class="player" style="width: 408px; height: 308px; left: 340px; top: 321px; position: absolute;">
+    <video class="video" src="../video/initiative.MP4" autoplay muted loop></video>
+    <div class="controls">
+      <button class="btn playPause"><strong>||</strong></button>
+      <div class="progress"><div class="progress-fill"></div></div>
+      <span class="time">00:00 / 00:00</span>
+      <button class="btn muteBtn"><strong>X</strong></button>
+      <button class="btn fullscreenBtn">⛶</button>
     </div>
+  </div>
     <div style="width: 6px; height: 6px; left: 344px; top: 305px; position: absolute; background: #F70000"></div>
   </div>
   <script src="../js/search.js"></script>
+  <script src="../js/video.js"></script>
